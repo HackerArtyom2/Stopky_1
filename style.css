@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Prostředí */
+.body {
+  border: 2px solid #000;
+  height: 20vh;
+  width: 20%;
+  margin-top: 20vh;
+  margin-left: 38%;
+  border-radius: 2vh;
+}
+
+/* Stopky */
+.stopWath {
+  border: 2px solid #000;
+  height: 8vh;
+  width: 30%;
+  margin-top: 1vh;
+  margin-left: 35%;
+  border-radius: 2vh;
+}
+
+.stopWatchText {
+  text-align: center;
+  margin-top: 1.5vh;
+}
+
+/* Tlačítka */
+.btn1 {
+ width: 30%;
+ margin-left: 2%;
+ margin-top: 4vh;
+ border: 2px solid black;
+ border-radius: 2vh;
+ box-shadow: 0 4px #999;
+}
+
+.btn1:hover {background-color: #3e8e41}
+
+.btn1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+.btn2 {
+  width: 30%;
+  margin-left: 2%;
+  margin-top: 4vh;
+  border: 2px solid black;
+  border-radius: 2vh;
+  box-shadow: 0 4px #999;
+}
+
+.btn2:hover {background-color: #3e8e41}
+
+.btn2:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+.btn3 {
+  width: 30%;
+  margin-left: 2%;
+  margin-top: 4vh;
+  border: 2px solid black;
+  border-radius: 2vh;
+  box-shadow: 0 4px #999;
+}
+
+.btn3:hover {background-color: #3e8e41}
+
+.btn3:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+/* Podržený čas */
+.hold {
+  margin-left: 47%;
+  font-size: 50px;
+}
+
+li {
+ list-style-type: none;
+}
